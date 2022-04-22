@@ -1,0 +1,50 @@
+# IDE
+/.vscode
+/.idea
+/*.iml
+# Config
+
+# Local/Media files
+/app/storage
+media/
+/development
+media/django_cache
+django_cache
+/logs
+
+# Environment/Local configurations
+venv/
+/.env
+/app/config/ckan/ckan.ini
+/app/config/ckan/who.ini
+/docker-compose.override.yml
+
+# Other files
+celerybeat-schedule
+__pycache__
+__pycache__/
+*.pyc
+*.log
+*.dll
+*.lib
+*.exe
+*.so
+.idea
+Thumbs.db
+dump
+.~lock*
+*.lock
+.DS_Store
+/*.sql
+
+**/static/dist/**
+
+# Node stuff
+node_modules
+package-lock.json
+webpack.stats.json
+
+# grafana
+/grafana/provisioning/datasources/stage.yml
+
+deploy.bash
